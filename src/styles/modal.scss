@@ -1,0 +1,25 @@
+.modalContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2c393ff3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div.modalData {
+    display:flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    min-width: 70vw;
+    height: auto;
+    min-height: 40vh;
+    padding: 1.5% 3%;
+    background-color: #ffffff;
+  }
+}

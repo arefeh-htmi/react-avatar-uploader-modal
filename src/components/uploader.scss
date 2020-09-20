@@ -1,0 +1,66 @@
+.EventUploaderPage {
+  .modalData 
+  .baseForm{
+   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+
+}
+  .form-group {
+    min-width: 300px;
+    max-width:500px;
+    overflow: hidden;
+  }
+  .imagepreview {
+    height: 100%;
+    position: relative;
+    width:40%;
+    justify-content: center;
+    align-items:center; 
+    border: 3px #00c7c7;
+    border-style: outset;
+    .imageContainer{
+      .userAvatar{
+      background-position: center;
+      background-size: cover;
+      &:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+      }
+    }
+    }
+    .uploadIcon {
+      height: 100%;
+      width: 100%;
+      display: flex;
+       align-items:  center; 
+       justify-content: center;
+        height: 100%;
+        &:after {
+          content: "";
+          display: block;
+          padding-bottom: 100%;
+        }
+      .cloud_upload {
+        margin:20px;
+        font-size: 7rem !important;
+      }
+    }
+    .uploadInputGroup{
+      width:40%;
+      flex-direction: column;
+      justify-content: center;
+      align-items:flex-start; 
+      align-content:space-between ;
+    }
+
+  }
+  .closeIcon{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+}

@@ -1,0 +1,21 @@
+.icon {
+  font-style: normal;
+  font-weight: normal;
+  color:#00c7c7;
+  font-size: 30px; /* Preferred icon size */
+  user-select: none;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+}

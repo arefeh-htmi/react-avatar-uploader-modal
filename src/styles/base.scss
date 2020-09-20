@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://kit-free.fontawesome.com/releases/latest/css/free.min.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  list-style: none;
+  word-break: break-all;
+
+}
+.App,
+#root {
+  min-height: 100vh;
+}
+style,
+title {
+  display: none;
+}
+body,
+html {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
+input,
+textarea,
+button {
+  border: 1px solid gray;
+}
+button {
+  border-radius: 0;
+  background-color: transparent;
+}
+button * {
+  pointer-events: none;
+}

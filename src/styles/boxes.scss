@@ -1,0 +1,64 @@
+@mixin box {
+  width: auto !important;
+  position: fixed;
+  right: -100%;
+  padding: 5px 40px;
+  border-radius: 10px;
+  text-align: left;
+  line-height: 38px;
+  text-transform: capitalize;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
+  z-index: 50000 !important;
+}
+.err_box {
+  @include box;
+  background-color: #c73200;
+  color: #ffffff;
+}
+.err_box_visible {
+  width: auto;
+  text-align: center;
+  z-index: 1111111;
+  font-size: 20px;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 0px 0px 2px 0px #e3e7e8;
+}
+.err_box_hidden {
+  top: -100%;
+}
+.success_box {
+  @include box;
+  background-color: #23adad;
+  color: #ffffff;
+}
+.success_box_visible {
+  width: auto;
+  text-align: center;
+  z-index: 1111111;
+  font-size: 20px;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 0px 0px 2px 0px #e3e7e8;
+}
+.success_box_hidden {
+  top: -100%;
+}
+.notification_box {
+  @include box;
+  background-color: #e7b853;
+  color: #020202;
+}
+.notification_box_visible {
+  width: auto;
+  text-align: center;
+  z-index: 1111111;
+  font-size: 20px;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 0px 0px 2px 0px #e3e7e8;
+}
+.notification_box_hidden {
+  top: -100%;
+}
